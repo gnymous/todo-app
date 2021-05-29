@@ -80,7 +80,9 @@ function reloadTodo(){
     }
     if (todoList.length) {
         showToDo.classList.add('showToDoTableSection')
-    }
+    }else{
+showToDo.classList.remove('showToDoTableSection')
+}
 
     document.getElementById('toDoTable').innerHTML=tblRow;
 }
