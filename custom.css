@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Squada+One&display=swap");
+body {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+.container {
+  min-height: 100vh;
+  background-color: #0f111a;
+  padding-bottom: 20px;
+}
+.toDoHeading {
+  color: whitesmoke !important;
+  font-family: "Squada One", cursive;
+  font-size: 40px;
+}
+.toDo {
+  color: lime !important;
+}
+.toDoInput {
+  font-size: 15px;
+}
+.toDoTableSection {
+  display: none;
+}
+.showToDoTableSection {
+  display: block;
+}
